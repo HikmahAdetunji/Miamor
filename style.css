@@ -1101,6 +1101,16 @@ body.modal-open {
 
 
 @media (max-width:950px) {
+.art-oval:after {
+  content: '😊';
+  position: absolute;
+  display: grid;
+  font-size: 100px;
+  top:20%;
+  right:45%;
+   z-index: 2;
+  pointer-events: none;
+}
   .card-grid {
     grid-template-columns: repeat(2,minmax(0,1fr));
   }
@@ -1128,7 +1138,33 @@ body.modal-open {
     transition: none;
   }
 }
+@media(max-width:960px){
+    .art-oval:after {
+  content: '😊';
+  position: absolute;
+  display: grid;
+  font-size: 100px;
+  top:20%;
+  right:40%;
+   z-index: 2;
+  pointer-events: none;
+}
+}
+@media(max-width:1032px){
+    .art-oval:after {
+  content: '😊';
+  position: absolute;
+  display: grid;
+  font-size: 100px;
+  top:20%;
+  right:40%;
+   z-index: 2;
+  pointer-events: none;
+}
+}
+
 @media(max-width:900px) {
+
   .cover {
     grid-template-columns: 1fr 1fr;
   }
@@ -1291,6 +1327,16 @@ body.modal-open {
   }
 }
 @media(max-width:390px) {
+    .art-oval:after {
+  content: '😊';
+  position: absolute;
+  display: grid;
+  font-size: 60px;
+  top:30%;
+  right:40%;
+   z-index: 2;
+  pointer-events: none;
+}
   .card-grid {
     grid-template-columns: 1fr;
   }
